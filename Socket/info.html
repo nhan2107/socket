@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>Info</title>
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Itim|Economica|Monoton');
+
+body {
+    background: url("https://i.pinimg.com/originals/de/1d/df/de1ddf9ee30e08e15460626b919ef87e.jpg");
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+  
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+.column {
+    float: left;
+    width: 50%;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+  
+.about-section {
+    padding: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255, 0.8);
+    flex: 1 0 auto;
+}
+  
+.container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(237, 161, 150, 0.8);
+    margin: 100px;
+    padding: 15px;
+    text-align: left;
+    border-radius: 15px;
+}
+  
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.title {
+    float:left;
+    text-align: center;
+    margin-left: 120px;
+    color: #e17c98;
+    font-family: Monoton;
+    font-size: 30px;
+}
+
+.header{
+    top: 0;
+    width: 100%;
+    padding: 8px;
+    text-align: right;
+    width: 100%;
+    display: inline;
+}
+
+.button {
+    background-color: rgba(245, 245, 245, 0);
+    border: 2px solid rgba(245, 245, 245, 0);
+    border-radius: 5px;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    font-family: Economica;
+    font-size: 20px;
+    width: 8%;
+    float: right;
+}
+
+.button:hover {
+    background-color: rgb(148, 46, 76, 0.8);
+    color: white;
+}
+  
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+</style>
+<body>
+    <div class="header">
+        <span class="title">About Us</span>
+        <button class="button"><a style="color: whitesmoke; text-decoration: none;" href="">Files</a></button>  
+    </div>
+
+    <div class="about-section">
+        <h1 style="font-size: 45; font-family: Economica;">Project 01: Socket Programming</h1>
+        <p style="font-size: 20; font-family: Economica;">Simple Web Server</p>
+    </div>
+    
+    <div class="row">
+        <div class="column">
+            <div class="container">
+                <img src="https://i.pinimg.com/originals/ad/be/1f/adbe1f7d7656964f5644af82d2967190.jpg" style="width:40%; border-radius: 50%;">
+                <div class="column" style="float: right">
+                    <h2 style="font-family: Itim; font-size: 30;">Nguyễn Trí Nhân</h2>
+                    <u style="font-family: Itim; font-size: 16; color: grey;">nguyentrinhan98@gmail.com</u>
+                    <p style="font-family: Itim; font-size: 18;">Class: 19CLC8</p>
+                    <p style="font-family: Itim; font-size: 18;">Student ID: 19127230</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="container">
+                <img src="https://i.pinimg.com/originals/e6/70/cb/e670cb54184df11f6deee98f611a829c.jpg" style="width:40%; border-radius: 50%;">
+                <div class="column" style="float: right">
+                    <h2 style="font-family: Itim; font-size: 30;">Trần Khải Trúc</h2>
+                    <u style="font-family: Itim; font-size: 16; color: grey;">tktruc143jk@gmail.com</u>
+                    <p style="font-family: Itim; font-size: 18;">Class: 19CLC8</p>
+                    <p style="font-family: Itim; font-size: 18;">Student ID: 19127304</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</head>
+</html>

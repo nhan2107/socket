@@ -1,0 +1,176 @@
+<html>
+<head>
+<title>Files</title>
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Itim|Economica|Monoton');
+
+body {
+    background: url("https://i.pinimg.com/originals/de/1d/df/de1ddf9ee30e08e15460626b919ef87e.jpg");
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+  
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+.about-section {
+    padding: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255, 0.8);
+}
+  
+.container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(237, 161, 150, 0.8);
+    margin-left: 50px; margin-right: 50px;
+    margin-bottom: 10px;
+    text-align: left;
+    border-radius: 15px;
+}
+  
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: inline;
+}
+  
+.title {
+    float:left;
+    text-align: center;
+    margin-left: 120px;
+    color: #e17c98;
+    font-family: Monoton;
+    font-size: 30px;
+}
+
+.header{
+    top: 0;
+    width: 100%;
+    padding: 8px;
+    text-align: right;
+    display: inline;
+}
+
+.button {
+    background-color: rgba(245, 245, 245, 0);
+    border: 2px solid rgba(245, 245, 245, 0);
+    border-radius: 5px;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    font-family: Economica;
+    font-size: 20px;
+    width: 8%;
+    float: right;
+}
+.button:hover {
+    background-color: rgb(148, 46, 76, 0.8);
+    color: white;
+}
+
+.content {
+    padding: 10px 30px;
+    text-align: left;
+    font-family: Itim;
+    margin-left: 10px; 
+    font-size: 20px;
+    position: absolute;
+    width: 40%;
+}
+
+.image {
+    width: 3%; 
+    padding: 5px; 
+    margin-left: 5px;
+}
+
+.download {
+    background-color: rgba(245, 245, 245, 0);
+    border: 2px solid rgba(245, 245, 245, 0);
+    padding: 10px 30px;
+    text-align: left;
+    font-family: Itim;
+    margin-left: 300px; margin-right: 10px;
+    font-size: 20px;
+    position: absolute;
+    text-decoration-line: underline;
+    width: 20%;
+    height:42px;
+}
+.download:hover {
+    color:white;
+}
+  
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+</style>
+<body>
+    <div class="about-section">
+        <h1 style="font-size: 45; font-family: Economica;">Project 01: Socket Programming</h1>
+        <p style="font-size: 20; font-family: Economica;">Simple Web Server</p>
+    </div>
+    
+    <div class="row">
+        <div class="container">
+            <img class="image" src="https://icon-library.com/images/return-icon-png/return-icon-png-3.jpg">
+            <span class="content">Parent Directory</span>
+            <button class="download">Parent Directory</button>
+        </div>
+
+        <div class="container">
+            <img class="image" src="https://img.icons8.com/cotton/452/yellow-file--v1.png">
+            <span class="content">Chapter1-Intro</span>
+            <button class="download">Chapter1-Intro.ppt</button>
+        </div>
+
+        <div class="container">
+            <img class="image" src="https://img.icons8.com/cotton/452/yellow-file--v1.png">
+            <span class="content">Chapter2-Application</span>
+            <button class="download">Chapter2-Application.ppt</button>
+        </div>
+
+        <div class="container">
+            <img class="image" src="https://img.icons8.com/cotton/452/yellow-file--v1.png">
+            <span class="content">Chapter3-Transport</span>
+            <button class="download">Chapter3-Transport.ppt</button>
+        </div>
+
+        <div class="container">
+            <img class="image" src="https://img.icons8.com/cotton/452/yellow-file--v1.png">
+            <span class="content">Chapter4-Network-1</span>
+            <button class="download">Chapter4-Network-1.ppt</button>
+        </div>
+
+        <div class="container">
+            <img class="image" src="https://img.icons8.com/cotton/452/yellow-file--v1.png">
+            <span class="content">Chapter5-Network-2</span>
+            <button class="download">Chapter5-Network-2.ppt</button>
+        </div>
+
+        <div class="container">
+            <img class="image" src="https://img.icons8.com/cotton/452/yellow-file--v1.png">
+            <span class="content">Chapter6-Datalink</span>
+            <button class="download">Chapter6-Datalink.ppt</button>
+        </div>
+
+        <div class="container">
+            <img class="image" src="https://img.icons8.com/cotton/452/yellow-file--v1.png">
+            <span class="content">Chapter7-Wireless</span>
+            <button class="download">Chapter7-Wireless.ppt</button>
+        </div>
+    </div>
+</body>
+</head>
+</html>
